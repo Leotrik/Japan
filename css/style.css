@@ -451,7 +451,7 @@ textarea {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 5;
+    z-index: 999;
     transition: .2s linear;
     padding-bottom: 20px;
   }
@@ -981,7 +981,7 @@ textarea {
 
   /*media-start*/
 
-  @media screen and (max-width: 776px) {
+  @media screen and (max-width: 767px) {
     .header-burger {
       display: block;
     }
